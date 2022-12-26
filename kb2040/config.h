@@ -5,6 +5,10 @@
 
 #include "config_common.h"
 
+#define I2C_DRIVER I2CD2
+
+#define SERIAL_PIO_USE_PIO1
+
 #ifdef POINTING_DEVICE_ENABLE
     #define POINTING_DEVICE_ROTATION_90
     #define CIRQUE_PINNACLE_DIAMETER_MM 35
