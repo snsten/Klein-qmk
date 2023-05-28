@@ -5,7 +5,7 @@
 
 #include "config_common.h"
 
-#define I2C_DRIVER I2CD2
+#define I2C_DRIVER I2CD1
 
 #define SERIAL_PIO_USE_PIO1
 
